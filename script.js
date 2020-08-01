@@ -1,1 +1,3 @@
-AOS.init()
+$('.carousel').carousel({
+      interval: 3500
+});
