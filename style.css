@@ -1,0 +1,63 @@
+/*    
+#25292F hex for black
+#EB5310 hex for orange
+rgba(37, 41, 47, 1) rgba for black
+rgba(235, 83, 16, 1) rgba for orange
+*/
+
+/*---------- Navigation ----------*/
+
+.navbar-brand img{
+   height: 2.95rem;
+}
+.navbar{
+   font-size: 1.15rem;
+   font-weight: 500;
+   letter-spacing: 0.1rem;
+   text-transform: uppercase;
+   background-color: rgba(37, 41, 47, 1) !important;
+   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.50);
+   z-index: 999;
+}
+.nav-item{
+   padding: 0.5rem;
+}
+.nav-link{
+   color: rgba(235, 83, 16, 0.75) !important;
+   opacity: 0.80; 
+}
+.nav-link.active, .nav-link:hover{
+   color: rgba(235, 83, 16, 1) !important;
+   opacity: 1;
+   transition: opacity 500ms;
+}
+.carousel{
+   color: rgba(37, 41, 47, 1);
+}
+.carousel-inner{
+   max-height: 35rem !important;
+}
+.carousel-item-next, .crousel-item-previous, .carousel-item.active{
+   transition: transform 1.2s ease-out;
+}
+.carousel-indicators li{
+   width: 40px;
+   height: 3px;
+   margin-left: 3px;
+   margin-right: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
