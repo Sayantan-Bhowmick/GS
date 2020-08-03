@@ -7,10 +7,11 @@ rgba(235, 83, 16, 1) rgba for orange
 
 /*---------- Navigation ----------*/
 
-.navbar-brand img{
+.navbar-brand img {
    height: 2.95rem;
 }
-.navbar{
+
+.navbar {
    font-size: 1.15rem;
    font-weight: 500;
    letter-spacing: 0.1rem;
@@ -19,56 +20,57 @@ rgba(235, 83, 16, 1) rgba for orange
    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.50);
    z-index: 1000;
 }
-.nav-item{
+
+.nav-item {
    padding: 0.5rem;
 }
-.nav-link{
+
+.nav-link {
    color: rgba(235, 83, 16, 0.75) !important;
-   opacity: 0.80; 
+   opacity: 0.80;
 }
-.nav-link.active, .nav-link:hover{
+
+.nav-link.active,
+.nav-link:hover {
    color: rgba(235, 83, 16, 1) !important;
    opacity: 1;
    transition: opacity 500ms;
 }
+
 /*---------- Carousel ----------*/
-.carousel{
+.carousel {
    color: rgba(37, 41, 47, 1);
 }
-.carousel-inner{
+
+.carousel-inner {
    max-height: 35rem !important;
 }
-.carousel-item-next, .crousel-item-previous, .carousel-item.active{
-   transition: transform 1.2s ease-out;
+
+.carousel-item-next,
+.crousel-item-previous,
+.carousel-item.active {
+   transition: transform 1.2s ease-in-out;
 }
-.carousel-indicators li{
-   width: 40px;
+
+.carousel-indicators li {
+   width: 33px;
    height: 3px;
    margin-left: 3px;
    margin-right: 3px;
 }
+
 /*---------- Carousel Overlay ----------*/
 .carousel-item:after {
-   content:"";
-   display:block;
-   position:absolute;
-   top:0px;
-   bottom:0px;
-   left:0px;
-   right:0px;
+   content: "";
+   display: block;
+   position: absolute;
+   top: 0px;
+   bottom: 0px;
+   left: 0px;
+   right: 0px;
    width: 100%;
    height: 100%;
-   background:rgba(37, 41, 47, 0.65);
+   background: rgba(37, 41, 47, 0.65);
 }
 
-
-
-
-
-
-
-
-
-
-
-
+/*---------- Carousel Caption ----------*/
