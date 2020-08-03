@@ -46,11 +46,12 @@ rgba(235, 83, 16, 1) rgba for orange
    max-height: 35rem !important;
 }
 
-.carousel-item-next,
+/*.carousel-item-next,
 .crousel-item-previous,
 .carousel-item.active {
-   transition: transform 1.2s ease-in-out;
+   transition: transform 1.3s ease-in-out;
 }
+*/
 
 .carousel-indicators li {
    width: 33px;
@@ -74,3 +75,9 @@ rgba(235, 83, 16, 1) rgba for orange
 }
 
 /*---------- Carousel Caption ----------*/
+.carousel-caption {
+   position: absolute;
+   display: block !important;
+   top: 20%;
+   z-index: 500;
+}
