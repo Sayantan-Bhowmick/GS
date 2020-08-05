@@ -78,6 +78,71 @@ rgba(235, 83, 16, 1) rgba for orange
 .carousel-caption {
    position: absolute;
    display: block !important;
-   top: 20%;
+   top: 15%;
    z-index: 500;
+}
+
+.carousel-caption h1 {
+   font-size: 100px;
+   color: rgba(235, 83, 16, 0.95);
+}
+
+.carousel-caption h3 {
+   font-size: 35px;
+}
+
+/*---------- Jumbotron ----------*/
+.jumbotron {
+   background: linear-gradient(to left, rgba(37, 41, 47, 0.90), rgba(235, 83, 16, 0.90));
+   padding: 1rem 0 0.5rem;
+   margin-bottom: 0;
+   border-radius: 0;
+   box-shadow: 0 0.5rem 0.5rem rgba(37, 41, 47, 0.75);
+}
+
+ul.social {
+   list-style-type: none;
+   display: flex;
+   padding: 0;
+   margin: 0 auto;
+}
+
+ul.social li {
+   margin: 0 auto;
+}
+
+.jumbotron .fa-facebook {
+   font-size: 2rem;
+   margin: 0 1rem;
+}
+
+.jumbotron .fa-instagram {
+   font-size: 2rem;
+   margin: 0 1rem;
+}
+
+.jumbotron .fa-twitter {
+   font-size: 2rem;
+   margin: 0 1rem;
+}
+
+.jumbotron .fa-linkedin {
+   font-size: 2rem;
+   margin: 0 1rem;
+}
+
+.jumbotron .fa-facebook:hover {
+   color: rgba(235, 83, 16, 1) !important;
+}
+
+.jumbotron .fa-instagram:hover {
+   color: rgba(235, 83, 16, 1) !important;
+}
+
+.jumbotron .fa-twitter:hover {
+   color: rgba(235, 83, 16, 1) !important;
+}
+
+.jumbotron .fa-linkedin:hover {
+   color: rgba(235, 83, 16, 1) !important;
 }
