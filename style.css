@@ -5,6 +5,17 @@ rgba(37, 41, 47, 1) rgba for black
 rgba(235, 83, 16, 1) rgba for orange
 */
 
+/*---------- CustomScrollBar ----------*/
+::-webkit-scrollbar {
+   background: #25292F;
+   width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+   background: rgba(235, 83, 16, 1);
+   width: 10px;
+}
+
 /*---------- Navigation ----------*/
 
 .navbar-brand img {
@@ -145,4 +156,27 @@ ul.social li {
 
 .jumbotron .fa-linkedin:hover {
    color: rgba(235, 83, 16, 1) !important;
+}
+
+/*---------- About ----------*/
+.about-head h3 {
+   text-transform: uppercase;
+   letter-spacing: 0.2rem;
+   font-size: 50px;
+   font-weight: 600;
+}
+
+.about-head span {
+   color: rgba(235, 83, 16, 1);
+}
+
+.about-text p {
+   font-size: 1rem;
+   letter-spacing: 0.1rem;
+   font-weight: 500;
+   padding: 2rem;
+}
+
+.about-img img {
+   padding: 3rem;
 }
