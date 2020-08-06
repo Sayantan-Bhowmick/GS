@@ -29,7 +29,7 @@ rgba(235, 83, 16, 1) rgba for orange
    text-transform: uppercase;
    background-color: rgba(37, 41, 47, 1) !important;
    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.50);
-   z-index: 1000;
+   z-index: 999;
 }
 
 .nav-item {
@@ -159,24 +159,3 @@ ul.social li {
 }
 
 /*---------- About ----------*/
-.about-head h3 {
-   text-transform: uppercase;
-   letter-spacing: 0.2rem;
-   font-size: 50px;
-   font-weight: 600;
-}
-
-.about-head span {
-   color: rgba(235, 83, 16, 1);
-}
-
-.about-text p {
-   font-size: 1rem;
-   letter-spacing: 0.1rem;
-   font-weight: 500;
-   padding: 2rem;
-}
-
-.about-img img {
-   padding: 3rem;
-}
