@@ -159,3 +159,20 @@ ul.social li {
 }
 
 /*---------- About ----------*/
+.about-heading span {
+   color: rgba(235, 83, 16, 1);
+   font-weight: 500 !important;
+}
+
+.about-text p {
+   text-align: left;
+   letter-spacing: 0.05rem;
+   font-size: large;
+   font-weight: 500;
+}
+
+.about-image img {
+   border-radius: 50px;
+}
+
+
