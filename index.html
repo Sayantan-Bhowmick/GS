@@ -24,13 +24,14 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <a href="https://girlscript.tech" class="navbar-brand" target="_blank">
-                    <img src="assets/gs_logo.png" alt="LOGO" title="https://girlscript.tech">
+                    <img src="assets/gs_logo.png" alt="LOGO" title="https://girlscript.tech" data-aos="fade-right"
+                        data-aos-delay="100" data-aos-offset="25">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto" data-aos="fade-left" data-aos-delay="100" data-aos-offset="25">
                         <li class="nav-item">
                             <a href="#" class="nav-link active">Home</a>
                         </li>
@@ -149,7 +150,7 @@
     <div class="border-top border-dark w-100 mx-auto my-3"></div>
     <!-- About Ends Here -->
 
-    <div class="space" style="height: 100vh;"></div>
+    <div class="space" style="height: 350vh;"></div>
 
 
 
@@ -167,6 +168,10 @@
 
     <!-- AnimateOnScroll CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js">
+    </script>
+
+    <script>
+        AOS.init();
     </script>
 </body>
 
